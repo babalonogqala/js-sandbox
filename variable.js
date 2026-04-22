@@ -44,6 +44,7 @@
 //   console.log("enterHouse");
 // }
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Code
 // Task 1
 // Generate a random number between 1 and 100 and store it in a variable called randomNum. Then use an if/else: if the number is greater than 50, log "High number!", otherwise log "Low number!"
@@ -51,9 +52,9 @@
 var randomNum = function number() {
   var conditionalNum = Math.floor(Math.random() * 100) + 1;
   if (conditionalNum > 50) {
-    return console.log("High number!");
+    return "High number!";
   } else {
-    return console.log("Low number!");
+    return "Low number!";
   }
 };
 console.log(randomNum());
@@ -81,11 +82,11 @@ console.log(gradeChecker(90)); //distiction
 function loveScore(name1, name2) {
   var score = Math.floor(Math.random() * 100) + 1;
   if (score >= 70) {
-    return console.log("greate match!");
+    return "greate match!";
   } else if (score >= 40 || score <= 70) {
-    return console.log("It could work!");
+    return "It could work!";
   } else {
-    return console.log("Keep looking!");
+    return "Keep looking!";
   }
 }
 console.log(loveScore());
@@ -93,14 +94,14 @@ console.log(loveScore());
 // Code
 // Task 4
 // Write a function called isEven that takes a number and uses the modulo operator to return "Even" or "Odd". Log the result for the numbers 4, 7, and 12.
-function isEven(num) {
-  if (num * 2) {
-  }
-}
+// function isEven(num) {
+//   if (num * 2) {
+//   }
+// }
 
-console.log(isEven());
-console.log(isEven());
-console.log(isEven());
+// console.log(isEven());
+// console.log(isEven());
+// console.log(isEven());
 
 // Code
 // Task 5
